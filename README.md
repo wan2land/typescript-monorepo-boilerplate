@@ -4,6 +4,15 @@
 
 Replace all the text `typemonoplate` to your project name.
 
+## Depends on
+
+- typescript (via babel)
+- lerna
+- eslint
+- jest
+- github workflow
+- github renovate bot
+
 ## Development
 
 ```bash

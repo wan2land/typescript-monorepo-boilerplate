@@ -1,11 +1,14 @@
 
-declare namespace jest {
-  interface Matchers<R, T = {}> {
-    toEqualGraphQLSchema(expected: string): R
-    toEqualGraphQLType(expected: string): R
+declare global {
+  namespace jest {
+    interface Matchers<R, T> {
+      toEqualJson(expected: any): R
+    }
+  }
+
+  interface HelloWorld {
+    message: string
   }
 }
-
-declare const blabla: string
 
 export {}

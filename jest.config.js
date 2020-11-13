@@ -1,7 +1,5 @@
 module.exports = {
-  transform: {
-    '^.+\\.tsx?$': 'ts-jest',
-  },
+  preset: 'ts-jest',
   testRegex: '[^/]*\\.test.tsx?$',
   setupFilesAfterEnv: ['./jest.setup.js'],
   globals: {
